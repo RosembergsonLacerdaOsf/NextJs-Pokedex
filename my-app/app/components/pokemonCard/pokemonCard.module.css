@@ -1,0 +1,51 @@
+.containerCard {
+  border-radius: 10px;
+  background: white;
+  width: 225px;
+  height: 200px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  overflow: hidden;
+  color: white;
+}
+
+.containerCard img {
+  width: 150px;
+}
+
+.cardContentImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fire {
+  background: #e07768;
+}
+
+.grama {
+  background: #4aada9;
+}
+
+.eletrick {
+  background: #f0ad4e;
+}
+
+.water {
+  background: #6eadd4;
+}
+
+.wind {
+  background: #cecece;
+}
+
+.namePokemon {
+  font-size: 18px;
+  text-transform: capitalize;
+}
