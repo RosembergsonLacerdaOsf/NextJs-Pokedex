@@ -1,13 +1,11 @@
 import styles from './header.module.css'
-import logopokemon from '../../assets/pokemon-logo.png'
 import Image from 'next/image';
 
 const Header = () => {
   return (
     <div className={styles.headerContent}>
-      <Image
-        src={logopokemon}
-        width={150}
+      <img
+        src='/assets/pokemon-logo.png'
         alt='pokelist logo'
       />
     </div>

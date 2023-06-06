@@ -11,7 +11,9 @@ const PokemonCard = ({ pokemon }: any) => {
           alt={pokemon.name}
         />
       </div>
-      <p className={styles.namePokemon}>{pokemon.name}</p>
+      <div className={styles.infocard}>
+        <p className={styles.namePokemon}>{pokemon.name}</p>
+      </div>
     </div>
   )
 }

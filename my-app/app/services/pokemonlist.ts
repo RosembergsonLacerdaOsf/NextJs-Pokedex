@@ -9,7 +9,7 @@ const pokemonList = [
   {
     name: 'beedrill',
     img: 'Beedrill.png',
-    element: 'wind',
+    element: 'bug',
     weigth: '2kg',
     size: '60cm',
   },
@@ -23,21 +23,21 @@ const pokemonList = [
   {
     name: 'bulbasaur',
     img: 'Bulbasaur.png',
-    element: 'grama',
+    element: 'grass',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'butterfree',
     img: 'Butterfree.png',
-    element: 'wind',
+    element: 'bug',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'caterpie',
     img: 'Caterpie.png',
-    element: 'grama',
+    element: 'bug',
     weigth: '2kg',
     size: '60cm',
   },
@@ -65,7 +65,7 @@ const pokemonList = [
   {
     name: 'clefable',
     img: 'Clefable.png',
-    element: 'wind',
+    element: 'fairy',
     weigth: '2kg',
     size: '60cm',
   },
@@ -86,35 +86,35 @@ const pokemonList = [
   {
     name: 'golbat',
     img: 'Golbat.png',
-    element: 'wind',
+    element: 'poison',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'ivysaur',
     img: 'Ivysaur.png',
-    element: 'grama',
+    element: 'grass',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'kadabra',
     img: 'Kadabra.png',
-    element: 'grama',
+    element: 'psychic',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'kakuna',
     img: 'Kakuna.png',
-    element: 'grama',
+    element: 'bug',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'metapod',
     img: 'Metapod.png',
-    element: 'grama',
+    element: 'grass',
     weigth: '2kg',
     size: '60cm',
   },
@@ -142,7 +142,7 @@ const pokemonList = [
   {
     name: 'pikachu',
     img: 'Pikachu.png',
-    element: 'eletrick',
+    element: 'electric',
     weigth: '2kg',
     size: '60cm',
   },
@@ -156,21 +156,21 @@ const pokemonList = [
   {
     name: 'raichu',
     img: 'Raichu.png',
-    element: 'eletrick',
+    element: 'electric',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'raticate',
     img: 'Raticate.png',
-    element: 'grama',
+    element: 'normal',
     weigth: '2kg',
     size: '60cm',
   },
   {
     name: 'rattata',
     img: 'Rattata.png',
-    element: 'grama',
+    element: 'normal',
     weigth: '2kg',
     size: '60cm',
   },
@@ -184,7 +184,7 @@ const pokemonList = [
   {
     name: 'venusaur',
     img: 'Venusaur.png',
-    element: 'grama',
+    element: 'grass',
     weigth: '2kg',
     size: '60cm',
   },
@@ -205,10 +205,115 @@ const pokemonList = [
   {
     name: 'weedle',
     img: 'Weedle.png',
-    element: 'grama',
+    element: 'bug',
     weigth: '2kg',
     size: '60cm',
-  }
+  },
+  {
+    name: 'arbok',
+    img: 'arbok.png',
+    element: 'poison',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'cubone',
+    img: 'cubone.png',
+    element: 'ground',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'dugtrio',
+    img: 'dugtrio.png',
+    element: 'ground',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'electabuzz',
+    img: 'electabuzz.png',
+    element: 'electric',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'exeggcute',
+    img: 'exeggcute.png',
+    element: 'grass',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'gengar',
+    img: 'gengar.png',
+    element: 'poison',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'graveler',
+    img: 'graveler.png',
+    element: 'fire',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'gyarados',
+    img: 'gyarados.png',
+    element: 'water',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'jigglypuff',
+    img: 'jigglypuff.png',
+    element: 'fairy',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'koffing',
+    img: 'koffing.png',
+    element: 'poison',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'magnemite',
+    img: 'magnemite.png',
+    element: 'electric',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'onix',
+    img: 'onix.png',
+    element: 'rock',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'psyduck',
+    img: 'psyduck.png',
+    element: 'water',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'snorlax',
+    img: 'snorlax.png',
+    element: 'fire',
+    weigth: '20kg',
+    size: '1,7m'
+  },
+  {
+    name: 'voltorb',
+    img: 'voltorb.png',
+    element: 'electric',
+    weigth: '20kg',
+    size: '1,7m'
+  },
 ]
 
 export default pokemonList
