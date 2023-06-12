@@ -1,0 +1,93 @@
+.containerCard {
+  border-radius: 5px;
+  background: white;
+  width: 225px;
+  height: 200px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  color: white;
+  cursor: pointer;
+}
+
+.containerCard img {
+  width: 150px;
+}
+
+.cardContentImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContentImg:hover {
+  transform: scale(1.3);
+}
+
+.infocard {
+  width: 93%;
+  background: white;
+  color: #000;
+  height: 37px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fire {
+  background: #e07768;
+}
+
+.grass {
+  background: #7AC74C;
+}
+
+.electric {
+  background: #f0ad4e;
+}
+
+.water {
+  background: #6eadd4;
+}
+
+.wind {
+  background: #A98FF3;
+}
+
+.poison {
+  background: #A33EA1;
+}
+
+.ground {
+  background: #E2BF65
+}
+
+.normal {
+  background: #a8a77a;
+}
+
+.psychic {
+  background: #F95587;
+}
+
+.bug {
+  background: #A6B91A
+}
+
+.rock {
+  background: #B6A136
+}
+
+.fairy {
+  background: #D685AD
+}
+.namePokemon {
+  font-size: 18px;
+  text-transform: capitalize;
+}
